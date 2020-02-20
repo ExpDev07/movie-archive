@@ -2,7 +2,6 @@
 <h1>Movie Archive</h1>
 
 <section class="row">
-
     <?php for ($i = 0; $i < 10; $i++) { ?>
 
         <article class="col-md-6 col-lg-4 mb-4">
@@ -31,6 +30,4 @@
         </article>
 
     <?php } ?>
-    
-
 </section>

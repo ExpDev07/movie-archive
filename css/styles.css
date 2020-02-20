@@ -1,3 +1,17 @@
+html, body {
+    min-height: 100vh;
+}
+
+/* site layout */
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+}
+
 .header {
     min-height: 65vh;
     display: flex;
