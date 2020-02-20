@@ -1,7 +1,7 @@
 <?php
 
     /**
-     * Gets the URL to a random wallpaper.
+     * Gets the path to a random wallpaper.
      * 
      * https://stackoverflow.com/a/4478788
      */
