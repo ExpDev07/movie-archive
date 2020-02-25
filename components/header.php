@@ -1,15 +1,15 @@
 <?php
 
-    /**
-     * Gets the path to a random wallpaper.
-     * 
-     * https://stackoverflow.com/a/4478788
-     */
-    function get_wallpaper() {
-        // Get all wallpapers in directory and pick a random one.
-        $wallpapers = glob('images/wallpapers' . '/*.*');
-        return $wallpapers[array_rand($wallpapers)];
-    }
+/**
+ * Gets the path to a random wallpaper.
+ * 
+ * https://stackoverflow.com/a/4478788
+ */
+function get_wallpaper() {
+    // Get all wallpapers in directory and pick a random one.
+    $wallpapers = glob('assets/images/wallpapers' . '/*.*');
+    return $wallpapers[array_rand($wallpapers)];
+}
 
 ?>
 

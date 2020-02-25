@@ -3,8 +3,8 @@
 
         <!-- Branding -->
         <a class="navbar-brand" href="/">
-            <img src="/images/logo.png" class="d-inline-block align-top mr-2" width="30" height="30" alt="">
-            Filmarkiv
+            <img src="assets/images/logo.png" class="d-inline-block align-top mr-2" width="30" height="30" alt="Logo" />
+            Movie Archive
         </a>
 
         <!-- Toggler -->

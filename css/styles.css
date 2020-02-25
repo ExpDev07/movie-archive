@@ -13,7 +13,7 @@ html, body {
 }
 
 .header {
-    min-height: 65vh;
+    min-height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
