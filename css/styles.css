@@ -19,6 +19,11 @@ html, body {
     justify-content: center;
 }
 
+main {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 .bg {
     background-repeat: no-repeat;
     background-size: cover;

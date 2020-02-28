@@ -17,7 +17,7 @@ function get_wallpaper() {
     <div class="container">
     
         <!-- Search movies -->
-        <form method="GET" action="/">
+        <form method="GET" action="/#movies">
             <div class="input-group input-group-lg">
                 <input class="form-control" name="query" placeholder="Scary Movie 2" />
                 <div class="input-group-append">

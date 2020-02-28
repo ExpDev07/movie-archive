@@ -20,15 +20,10 @@
     <!-- Navbar -->
     <?php include('components/navbar.php'); ?>
 
-    <!-- Header -->
-    <?php include('components/header.php'); ?>
-
     <!-- Content -->
-    <main id="content">
-        <div class="container my-5">
-            <?php include('pages/' . ($_GET['page'] ?? 'home') . '.php'); ?>
-        </div>
-    </main>
+    <div id="content">
+        <?php include('pages/' . ($_GET['page'] ?? 'home') . '.php'); ?>
+    </div>
 
     <!-- Footer -->
     <?php include('components/footer.php'); ?>
